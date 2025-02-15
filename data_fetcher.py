@@ -7,7 +7,7 @@ import json
 from pymongo import MongoClient
 from config import MONGO_DB,MONGO_URI,MONGO_COLLECTIONS
 
-class DataFetcher():
+class DataFetcher:
     def fetch_from_mongo(self):
         "Fetches data from mongodb"
         client = MongoClient(MONGO_URI)
