@@ -1,0 +1,12 @@
+A python/ML project that classifies real-time coming data into certain buckets via text classification.
+The project makes use of a Naive-Bayes Classifier.
+
+RealTimeTextClassification_NaiveBayes/
+│── main.py                  # Main script to orchestrate everything
+│── data_fetcher.py          # Fetches data from MongoDB/JSON
+│── kafka_producer.py        # Publishes scraped data to Kafka
+│── kafka_consumer.py        # Reads data from Kafka & sends it to OpenAI
+│── text_summarizer.py       # Summarizes text using OpenAI API
+│── text_classifier.py       # Trains & runs Naïve Bayes classifier
+│── model_evaluation.py      # Evaluates model & plots visualization
+│── config.py                # Configurations (API keys, MongoDB, Kafka)
