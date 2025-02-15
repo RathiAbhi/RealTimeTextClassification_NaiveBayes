@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2574fe9-6ee3-4f1d-8318-701f51892975" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kafka_consumer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka_producer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text_summarizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model_evaluation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text_classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataFetcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_fetcher.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
